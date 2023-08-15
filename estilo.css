@@ -1,0 +1,70 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	font-family: sans-serifs;
+	background: #36D1DC;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+.Formulario{
+	width: 95%;
+	max-width: 500px;
+	margin: auto;
+	background: #bdc3c7;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+	border-radius: 7px;
+}
+.TituloForm{
+	background: #2980B9;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	color: #000000;
+	padding: 20px;
+	text-align: center;
+	font-size: 30px;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	border-bottom: 3px solid black;
+}
+.ContenedorForm{
+	padding: 10px 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+input{
+	margin-bottom: 15px;
+	padding: 15px;
+	font-size: 16;
+	border-radius: 5px;
+	border: 1px solid blacks;
+}
+.input48{
+	width: 48%;
+}
+.input100{
+	width: 100%;
+}
+.BtnEnviar{
+	color: black;
+ 	font-size: 20px;
+ 	background: white;
+ 	border: 2px solid black;
+ 	margin: auto;
+}
+.BtnEnviar:hover{
+	cursor: pointer;
+	background: deepskywhite;	
+}
+input:hover{
+	transform: 	translate(3px);
+	border-color: crimson;
+}
